@@ -1,0 +1,18 @@
+mat-toolbar {
+  a {
+    color: white;           
+    text-decoration: none;  
+    display: flex;          
+    align-items: center;
+    gap: 5px;               // Dá um espacinho entre o ícone e o texto
+    margin-left: 20px;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;         // Garante que o espaço empurre os links para a direita
+  }
+}
+.content {
+  min-height: calc(100vh - 128px); /* Garante que o meio ocupe o espaço restante */
+  padding-bottom: 50px; /* Dá um respiro para não encostar no footer */
+}

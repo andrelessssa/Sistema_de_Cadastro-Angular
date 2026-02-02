@@ -1,0 +1,16 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end; /* Joga o texto para a direita */
+    font-size: 0.9rem;
+    background-color: #fff; /* Fundo branco para contrastar com o Header */
+    color: #333;
+}
+
+mat-icon {
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+    margin: 0 4px;
+}
