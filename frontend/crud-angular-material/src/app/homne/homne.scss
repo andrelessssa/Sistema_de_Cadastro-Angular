@@ -1,7 +1,7 @@
 .home-card {
     display: flex; /* Começamos o flexbox aqui */
-    flex-direction: column; 
-    max-width: 450px;
+    justify-content: center;
+    max-width: 800px;
     margin: 20px auto; /* Centraliza o card na página */
     
     .title {

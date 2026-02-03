@@ -1,0 +1,32 @@
+/* Isso substitui o fxLayout="row" e fxLayoutAlign="center" */
+.container-central {
+  display: flex;          /* Ativa o modo flexível */
+  justify-content: center; /* Centraliza na horizontal */
+  align-items: center;     /* Centraliza na vertical (se o container tiver altura) */
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 800px; /* Para o card não ficar gigante em telas largas */
+  margin-top: 50px;
+}
+
+.mt-20 {
+  margin-top: 20px; /* mt = margin top | 20 = pixels */
+}
+.mt-40 {
+  margin-top: 40px; /* mt = margin top | 40 = pixels */
+}
+.mb-60 {
+  margin-bottom: 20px; /* mb = margin bottom | 20 = pixels */
+}
+.full-width {
+  width: 100%;
+}
+.ml-5 {
+  margin-left: 5px; /* ml = margin left | 5 = pixels */
+}
+.mt-400 {
+  max-width: 400px; /* Define a largura máxima para o campo CPF */
+}

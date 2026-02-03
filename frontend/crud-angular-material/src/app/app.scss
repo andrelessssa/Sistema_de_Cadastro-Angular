@@ -16,3 +16,18 @@ mat-toolbar {
   min-height: calc(100vh - 128px); /* Garante que o meio ocupe o espaço restante */
   padding-bottom: 50px; /* Dá um respiro para não encostar no footer */
 }
+.mt-20 {
+  margin-top: 20px; /* mt = margin top | 20 = pixels */
+}
+.mt-40 {
+  margin-top: 40px; /* mt = margin top | 40 = pixels */
+}
+.mb-60 {
+  margin-bottom: 20px; /* mb = margin bottom | 20 = pixels */
+}
+.full-width {
+  width: 100%;
+}
+.ml-5 {
+  margin-left: 5px; /* ml = margin left | 5 = pixels */
+}

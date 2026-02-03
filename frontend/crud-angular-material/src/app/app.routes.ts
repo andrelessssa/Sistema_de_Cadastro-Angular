@@ -4,7 +4,9 @@ import { Consulta } from './consulta/consulta';
 import { Homne } from './homne/homne';
 
 
+
 export const routes: Routes = [
+    { path: '', redirectTo: '/homne', pathMatch: 'full' },
     {path: 'cadastro', component: Cadastro},
     {path: 'consulta',  component: Consulta},
     {path: 'homne',  component: Homne},
